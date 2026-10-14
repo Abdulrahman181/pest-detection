@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Dataset and generated artifacts
+/kaggle/
+data/
+yolo_dataset/
+*.pt
+*.onnx
+runs/
+outputs/
+artifacts/
+
+# Notebook checkpoints and local environment files
+.ipynb_checkpoints/
+.env
+.DS_Store
